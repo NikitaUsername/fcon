@@ -1,11 +1,7 @@
 import React from 'react';
-import Header from "./components/header";
-import StarsBlock from "./components/starsBlock"
+import Header from "./components/Header";
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Star from './components/star';
-import Categories from "./components/categories"
-import Footer from "./components/footer"
+import Main from "./components/Main"
 
 class App extends React.Component{
 
@@ -13,10 +9,8 @@ class App extends React.Component{
     return(
       <div>
         <Header/>
-        <Categories/>
-        <StarsBlock/>
-        <StarsBlock/>
-        <Footer/>
+        <Main/>
+        
       </div>
     )
   }

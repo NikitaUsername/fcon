@@ -1,28 +1,52 @@
 import React from "react"
-import {Button, Container, Form, Navbar, FormControl} from 'react-bootstrap'
 
 class Header extends React.Component{
     render(){
         return(
-            <Navbar collapseOnSelect expand="md" fixed="top" bg="dark" variant="light">
-                <Container>
-                    <Navbar.Brand href="/" >
-                    <h2 >
-                     FCON - Famous Connection
-                    </h2>
-                    </Navbar.Brand>  
-                    <Navbar.Toggle aria-controls="responisive-navbar-nav"/>
-                    <Navbar.Collapse>
-                        <Form inline>
-                            <FormControl
-                            type="text"
-                            placeholder="Имя..."
-                            className="mr-sm-2"
-                            />
-                        </Form>
-                    </Navbar.Collapse> 
-                </Container>
-            </Navbar>
+            <div className="header">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-xl-1">
+                            <h3 className="logo">
+                                F-CON
+                            </h3>
+                        </div>
+                            
+                        <div className="col-xl-6 offset-4 menuCol">
+                            <ul className="menu d-flex">
+                                <li className="menu__item">
+                                    <a> 
+                                        Каталог знаменитостей
+                                    </a>
+                                </li>
+                                <li className="menu__item"> 
+                                <a>
+                                        Вопросы и ответы
+                                    </a>
+                                </li>
+                                <li className="menu__item">
+                                    <a>
+                                        О проекте
+                                    </a>
+                                </li>
+                                <li className="menu__item"> 
+                                    <a>
+                                        Контакты 
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                        </div>
+                        <div className='col-xl-1'>
+                            <div className="d-flex justify-content-end">
+                                <button className="signInButton">
+                                    Войти
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         );
     }
 };
