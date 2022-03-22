@@ -1,0 +1,249 @@
+/*scpecs*/
+body{
+  overflow-x: hidden;
+  background-color: #f8f8f8 !important;
+}
+ul,li{
+   display: block;
+   padding: 0;
+   margin: 0;
+ }
+
+*{
+   font-family: "Futura PT";
+ }
+
+@media(min-width: 1200px){
+  .container{
+    max-width: 1200px !important;
+  }
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{ 
+  padding-left: 0px !important; 
+  padding-right: 0px !important;
+ } 
+
+h3{
+  font-family: 'Futura PT';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+}
+h2{
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 36px;
+  text-transform: uppercase;
+  color:  #343a40;
+  line-height: 39px;
+}
+
+.logo{
+  margin-top: 7px;
+  width: 76px;
+  
+}
+.menu{
+  margin-top: 7px;
+}
+.menu__item{
+  margin-right: 30px !important;
+}
+
+.menu__item a{
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.header{
+ padding-top: 50px; 
+}
+
+
+.signInButton{
+  width: 72px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #c21e6d;
+  border: none;
+  color:  #f8f8f8;
+  outline: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.title{
+  font-family: 'Futura PT Demi';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: left;
+  line-height: 1.09;
+  color: #343a40;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 0;
+}
+
+.title__highlight{
+  color: #c21e6d;
+}
+
+.emoji{
+  padding-right: 6px;
+  padding-top: 63px;
+}
+
+.main{
+  padding-top: 100px;
+}
+
+.video{
+  padding-top: 64px;
+}
+
+.video__content{
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.video__background {
+  background-color:rgba(0, 0, 0, 0.5);
+  background-repeat:no-repeat;
+  width:100%;
+  height:500px;
+  position:absolute;
+  left:0%;
+  right:0%;
+  top: 64px;
+  bottom:0%;
+  border-radius: 10px;
+  
+}
+.video__playpause{
+  cursor: pointer;
+  position: absolute;
+  left: 534px;
+  top: 248px;
+}
+
+.categoriesMarquee{
+  padding-top: 150px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 150px;
+}
+
+.categoriesMarquee__list{
+  animation: scrolling 60s linear infinite;
+  
+}
+.categoriesMarquee__list:nth-child(2){
+  animation: scrolling2 60s linear infinite;
+  animation-delay: -30s;
+}
+
+.categoriesMarquee__element, .categoriesMarquee__categorie{
+  font-family: "Futura Pt Demi";
+  color: #f8f8f8;
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 78px;
+  letter-spacing: 0em;
+  text-align: left;
+  -webkit-text-stroke: black;
+  -webkit-text-stroke-width: 1px;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.categoriesMarquee__categorie:hover{
+  color: #1EC27D;
+  text-decoration: none;
+  -webkit-text-stroke: 0px;
+}
+
+
+.starsPreviewTitle{
+  margin-left: -3px;
+  padding-bottom: 65px;
+}
+
+.starsPreviewTitle__highlight{
+  margin-right: 10px;
+  color: #c21e6d;
+}
+
+.starsPreviewImage{
+  padding-left: 20px;
+}
+
+
+.starCard{
+  width: 100%;
+  height: 400px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.starCard__canvasContainer{
+  border-radius: 10px;
+}
+
+.starCard>span{
+  position: absolute;
+  color: #f8f8f8;
+  left: 110px;
+  line-height: 108.9%;
+}
+
+.starCard__starName{
+  font-family: "Futura PT Demi";
+  text-transform: uppercase;
+  font-size: 26px;
+  margin-top: 310px;
+}
+
+.starCard__starDescription{
+  font-family: "Futura PT";
+  font-size: 16px;
+  line-height: 108.9%;
+  top: 343px;
+  opacity: 0.9;
+}
+
+@keyframes scrolling{
+  0% {transform: translateX(100%);}
+  100% {transform: translateX(-100%);}
+}
+@keyframes scrolling2{
+  0% {transform: translateX(0);}
+  100% {transform: translateX(-200%);}
+}
+
+
+
+@font-face {
+  font-family: "Futura PT"; 
+  src: url("./fonts/FuturaPT-Medium.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+	font-family: 'Futura PT Demi';
+	src: url('./fonts/futura_pt_demi.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/futura_pt_demi.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/futura_pt_demi.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/futura_pt_demi.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/futura_pt_demi.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/futura_pt_demi.svg#futura_pt_demi') format('svg'); /* Chrome < 4, Legacy iOS */
+}
