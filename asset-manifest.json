@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/fcon/static/css/main.64b5dae6.chunk.css",
+    "main.js": "/fcon/static/js/main.d38a4d8e.chunk.js",
+    "main.js.map": "/fcon/static/js/main.d38a4d8e.chunk.js.map",
+    "runtime-main.js": "/fcon/static/js/runtime-main.d7e2313d.js",
+    "runtime-main.js.map": "/fcon/static/js/runtime-main.d7e2313d.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/fcon/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.2eeeac24.chunk.js": "/fcon/static/js/2.2eeeac24.chunk.js",
+    "static/js/2.2eeeac24.chunk.js.map": "/fcon/static/js/2.2eeeac24.chunk.js.map",
+    "index.html": "/fcon/index.html",
+    "precache-manifest.c04f0bdae395d45eab0dbbd800da6954.js": "/fcon/precache-manifest.c04f0bdae395d45eab0dbbd800da6954.js",
+    "service-worker.js": "/fcon/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/fcon/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.64b5dae6.chunk.css.map": "/fcon/static/css/main.64b5dae6.chunk.css.map",
+    "static/js/2.2eeeac24.chunk.js.LICENSE.txt": "/fcon/static/js/2.2eeeac24.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/fcon/static/media/futura_pt_demi.dac96ba1.svg",
+    "static/media/bigImage.jpg": "/fcon/static/media/bigImage.5a10dca8.jpg",
+    "static/media/gerald.mp4": "/fcon/static/media/gerald.2741938b.mp4",
+    "static/media/smallImage.jpg": "/fcon/static/media/smallImage.463b8695.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7e2313d.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.2eeeac24.chunk.js",
+    "static/css/main.64b5dae6.chunk.css",
+    "static/js/main.d38a4d8e.chunk.js"
+  ]
+}
