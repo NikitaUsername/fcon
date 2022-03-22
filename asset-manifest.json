@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/FamousConnection/static/css/main.8578f921.chunk.css",
-    "main.js": "/FamousConnection/static/js/main.e5daaae1.chunk.js",
-    "main.js.map": "/FamousConnection/static/js/main.e5daaae1.chunk.js.map",
-    "runtime-main.js": "/FamousConnection/static/js/runtime-main.145e06f8.js",
-    "runtime-main.js.map": "/FamousConnection/static/js/runtime-main.145e06f8.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "/FamousConnection/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.2eeeac24.chunk.js": "/FamousConnection/static/js/2.2eeeac24.chunk.js",
-    "static/js/2.2eeeac24.chunk.js.map": "/FamousConnection/static/js/2.2eeeac24.chunk.js.map",
-    "index.html": "/FamousConnection/index.html",
-    "precache-manifest.431d35b4ccaf6ca0d8d1b76e11866661.js": "/FamousConnection/precache-manifest.431d35b4ccaf6ca0d8d1b76e11866661.js",
-    "service-worker.js": "/FamousConnection/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "/FamousConnection/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.8578f921.chunk.css.map": "/FamousConnection/static/css/main.8578f921.chunk.css.map",
-    "static/js/2.2eeeac24.chunk.js.LICENSE.txt": "/FamousConnection/static/js/2.2eeeac24.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/FamousConnection/static/media/futura_pt_demi.dac96ba1.svg",
-    "static/media/bigImage.jpg": "/FamousConnection/static/media/bigImage.5a10dca8.jpg",
-    "static/media/gerald.mp4": "/FamousConnection/static/media/gerald.2741938b.mp4",
-    "static/media/smallImage.jpg": "/FamousConnection/static/media/smallImage.463b8695.jpg"
+    "main.css": "/fcon/static/css/main.64b5dae6.chunk.css",
+    "main.js": "/fcon/static/js/main.98782c98.chunk.js",
+    "main.js.map": "/fcon/static/js/main.98782c98.chunk.js.map",
+    "runtime-main.js": "/fcon/static/js/runtime-main.d7e2313d.js",
+    "runtime-main.js.map": "/fcon/static/js/runtime-main.d7e2313d.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/fcon/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.2eeeac24.chunk.js": "/fcon/static/js/2.2eeeac24.chunk.js",
+    "static/js/2.2eeeac24.chunk.js.map": "/fcon/static/js/2.2eeeac24.chunk.js.map",
+    "index.html": "/fcon/index.html",
+    "precache-manifest.3ba73828657f18eff66bcddaec76b588.js": "/fcon/precache-manifest.3ba73828657f18eff66bcddaec76b588.js",
+    "service-worker.js": "/fcon/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/fcon/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.64b5dae6.chunk.css.map": "/fcon/static/css/main.64b5dae6.chunk.css.map",
+    "static/js/2.2eeeac24.chunk.js.LICENSE.txt": "/fcon/static/js/2.2eeeac24.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/fcon/static/media/futura_pt_demi.dac96ba1.svg",
+    "static/media/bigImage.jpg": "/fcon/static/media/bigImage.5a10dca8.jpg",
+    "static/media/gerald.mp4": "/fcon/static/media/gerald.2741938b.mp4",
+    "static/media/smallImage.jpg": "/fcon/static/media/smallImage.463b8695.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.145e06f8.js",
+    "static/js/runtime-main.d7e2313d.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.2eeeac24.chunk.js",
-    "static/css/main.8578f921.chunk.css",
-    "static/js/main.e5daaae1.chunk.js"
+    "static/css/main.64b5dae6.chunk.css",
+    "static/js/main.98782c98.chunk.js"
   ]
 }
